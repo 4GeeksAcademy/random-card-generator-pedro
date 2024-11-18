@@ -1,1 +1,64 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  background-color: green;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: wheat;
+  width: 360px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.row_1 {
+  margin-left: 20px;
+  font-size: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+}
+.row_2 {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  align-items: center;
+}
+.row_3 {
+  padding-left: 80%;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+
+  align-items: center;
+  height: 25%;
+  width: 100%;
+  transform: scaleY(-1);
+}
+
+.form_container {
+  background-color: rgb(80, 170, 80);
+  border-radius: 10px;
+}
+
+.card_height {
+  padding: 30px;
+  padding-bottom: 50px;
+}
+
+.card_width {
+  padding: 30px;
+}
